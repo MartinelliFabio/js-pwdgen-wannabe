@@ -1,0 +1,33 @@
+/* ! Utility */
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --red: red;
+    --green: green;
+}
+
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: var(--white);
+}
+
+.black {
+    color: var(--black);
+}
+
+/* ! HEADER */
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.151);
+    height: 90px;
+}
+
+/* ! MAIN */
+#wannabe {
+    margin-top: 250px;
+}
